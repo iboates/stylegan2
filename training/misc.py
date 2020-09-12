@@ -28,7 +28,7 @@ def load_pkl(file_or_url):
 
 def save_pkl(obj, filename):
     with open(filename, 'wb') as file:
-        pickle.dump(obj, file, protocol=pickle.HIGHEST_PROTOCOL)
+        pickle.dump(obj, file, protocol=4)
 
 #----------------------------------------------------------------------------
 # Image utils.
